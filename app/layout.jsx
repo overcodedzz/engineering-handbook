@@ -2,7 +2,12 @@ import { Footer, Layout, Navbar } from 'nextra-theme-docs'
 import { Banner, Head } from 'nextra/components'
 import { getPageMap } from 'nextra/page-map'
 import 'nextra-theme-docs/style.css'
-import Image from 'next/image'
+
+export const metadata = {
+  lang: "en",
+  // Define your metadata here
+  // For more information on metadata API, see: https://nextjs.org/docs/app/building-your-application/optimizing/metadata
+}
 
 const banner = <Banner storageKey="1.0-release">Version 1.0 is released 🎉</Banner>
 const navbar = (
